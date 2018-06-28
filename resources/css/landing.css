@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #edf0f1;
+}
+
+header{
+    background: #ce00ce;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+}
+header .title{
+    font-family: "Khand",  sans-serif;
+    font-weight: 500; 
+    font-size: 20px;
+    text-indent: 10px;
+    line-height: 50px;
+    color: rgb(236, 236, 236);
+    height: 50%;
+}
+
+header .todo_container{
+    font-family: "Khand",  sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background: #841cc9;
+    text-indent: 10px;
+    line-height: 50px;
+    color: rgb(236, 236, 236);
+    height: 50%;
+}
+
+header .reminder_container{
+    font-family: "Khand",  sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background: #FFB015;
+    text-indent: 10px;
+    line-height: 50px;
+    color: rgb(236, 236, 236);
+    height: 50%;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 11;
+    background: #bb1919;
+    bottom: 0;
+    text-align: center;
+    color: #edf0f1;
+    line-height: 50px;
+    font-family: "Khand", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.todo_container svg{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+.reminder_container svg{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 120px;
+}
